@@ -10,6 +10,7 @@
 		5F081B1F158426D100B75826 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F081B1E158426D100B75826 /* Foundation.framework */; };
 		5F081B22158426D100B75826 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F081B21158426D100B75826 /* main.m */; };
 		5F081B26158426D100B75826 /* rtfpaste.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F081B25158426D100B75826 /* rtfpaste.1 */; };
+		5F081B31158427BA00B75826 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F081B30158427BA00B75826 /* AppKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +30,9 @@
 		5F081B1A158426D100B75826 /* rtfpaste */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = rtfpaste; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F081B1E158426D100B75826 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5F081B21158426D100B75826 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5F081B24158426D100B75826 /* rtfpaste-Prefix.pch */ = {isa = PBXFileReference; path = "rtfpaste-Prefix.pch"; sourceTree = "<group>"; };
+		5F081B24158426D100B75826 /* rtfpaste-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rtfpaste-Prefix.pch"; sourceTree = "<group>"; };
 		5F081B25158426D100B75826 /* rtfpaste.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = rtfpaste.1; sourceTree = "<group>"; };
+		5F081B30158427BA00B75826 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F081B31158427BA00B75826 /* AppKit.framework in Frameworks */,
 				5F081B1F158426D100B75826 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +51,7 @@
 		5F081B0F158426D100B75826 = {
 			isa = PBXGroup;
 			children = (
+				5F081B30158427BA00B75826 /* AppKit.framework */,
 				5F081B20158426D100B75826 /* rtfpaste */,
 				5F081B1D158426D100B75826 /* Frameworks */,
 				5F081B1B158426D100B75826 /* Products */,
@@ -229,6 +233,7 @@
 				5F081B2B158426D100B75826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
